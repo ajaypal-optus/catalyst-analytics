@@ -1,0 +1,68 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background: radial-gradient(circle, #0d1b2a, #000);
+  color: white;
+}
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+.hero span {
+  background: #1a73e8;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #aaa;
+}
+
+.primary-btn {
+  background: #1a73e8;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero-right img {
+  width: 350px;
+}
+.clients {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.avatars {
+  display: flex;
+}
+
+.avatars img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin-left: -10px;
+}
+
+.avatars img:first-child {
+  margin-left: 0;
+}
+
+.clients p {
+  color: #aaa;
+  font-size: 14px;
+}
