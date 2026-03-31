@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";CareerFilter
+import Navbar from "../components/Navbar";
 import Careerhero from "../components/Career/Careerhero";
 import CareerFilter from "../components/Career/CareerFilter";
 import CareerJobs from "../components/Career/CareerJobs";

@@ -1,3 +1,7 @@
+body {
+background: #000;
+  color: white;
+}
 .career-hero {
   padding: 80px 60px;
   background: #000;
@@ -476,4 +480,247 @@
 
 .careercta-box button:hover {
   background: #0066cc;
+}
+
+/* CONTAINER */
+.careerdetails-container {
+  background: #0b0f19;
+  color: white;
+  font-family: Arial;
+}
+/* .careerdetails-container {
+  max-width: 1200px;
+  margin: auto;
+} */
+
+/* HERO */
+.careerdetails-hero {
+  height: 300px;
+
+  background-size: cover;
+  background-position: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.careerdetails-hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.careerdetails-hero button {
+  background: #3b82f6;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+/* LAYOUT */
+.careerdetails-content {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 20px;
+  padding: 40px 60px;
+}
+
+.careerdetails-left {
+  flex: 2;
+}
+
+/* SECTIONS */
+.careerdetails-section {
+  background: #0f172a;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #1e293b;
+}
+
+.careerdetails-section h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/* SIDEBAR */
+.careerjob-sidebar {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+.careerdetails-section ul {
+  padding-left: 20px;
+}
+
+.careerdetails-section li {
+  margin-bottom: 10px;
+  color: #cbd5f5;
+}
+
+/* TITLE */
+.careerjob-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* SUBTITLE */
+.careerjob-subtitle {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/* SKILLS */
+.careerjob-skills {
+  color: #9ca3af;
+}
+
+/* BUTTON */
+.careerjob-apply-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #3b82f6;
+  border-radius: 6px;
+}
+
+
+/* FORM CONTAINER */
+.careerapplyform-container {
+  background: #0f172a;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+}
+
+/* TITLE */
+.careerapplyform-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* ROW */
+.careerapplyform-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.careerapplyform-input,
+.careerapplyform-textarea {
+  width: 100%;
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+/* INPUT */
+.careerapplyform-input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: #1f2937;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+/* FILE INPUT */
+.careerapplyform-file {
+  margin: 10px 0;
+  color: white;
+}
+
+/* TEXTAREA */
+.careerapplyform-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background: #1f2937;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.careerapplyform-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* CONTAINER */
+.careersimilar-container {
+  margin-top: 40px;
+  padding: 40px 60px;
+}
+
+
+/* GRID */
+.careersimilar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARD */
+.careersimilar-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  color: white; /* IMPORTANT */
+}
+
+/* JOB TITLE */
+.careersimilar-jobtitle {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* TAGS */
+.careersimilar-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.careersimilar-tags span {
+  background: #020617;
+  color: #cbd5f5;
+  border: 1px solid #1e293b;
+}
+
+
+/* SKILLS */
+.careersimilar-skills {
+  font-size: 13px;
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.careersimilar-btn {
+  width: 100%;
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
 }
