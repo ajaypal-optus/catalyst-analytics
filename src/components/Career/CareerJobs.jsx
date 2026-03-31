@@ -1,4 +1,5 @@
 import "../../styles/career.css";
+import { Link } from "react-router-dom";
 
 const jobs = [
   {
@@ -56,7 +57,9 @@ function CareerJobs() {
             <h4>SKILLS</h4>
             <p className="skills">{job.skills}</p>
 
-            <button>Apply Now</button>
+            <Link to="/Careerdetails" onClick={() => setOpen(false)}>
+  <button>Apply Now</button>
+</Link>
           </div>
         ))}
       </div>

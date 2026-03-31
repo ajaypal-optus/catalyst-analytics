@@ -26,8 +26,6 @@ function Navbar() {
         <li><Link to="/portfolio" onClick={() => setOpen(false)}>Portfolio</Link></li>
         <li><Link to="/about" onClick={() => setOpen(false)}>About Us</Link></li>
         <li><Link to="/Career" onClick={() => setOpen(false)}>Careers</Link></li>
-
-        {/* 👉 MOVE BUTTON INSIDE MENU */}
         <li>
           <Link to="/contact" className="contact-btn" onClick={() => setOpen(false)}>
             Contact Us
